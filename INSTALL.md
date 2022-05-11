@@ -13,7 +13,7 @@
 - [Authentication of remote web server](#authentication-of-remote-web-server)
 
 ## VPS installation
-- Go to [ionos.ca/servers/vps](https://ionos.ca/servers/vps) and select the $1/month plan
+- Go to [ionos.ca](https://ionos.ca/servers/vps) and select the $1/month plan
 - This is the cheapest and best option for our project with 512MB RAM, 10GB SSD and a 1vCore CPU
 - For "System and version management system", pick Debian 11
 - Make sure the "Data center location" is on United States and you select any Cloud Backup
@@ -22,8 +22,8 @@
 - Here you will find the server's IP address, the default username and password(you can change this once in the server), the server's status and which port they can connect to
 
 ## Putty installation
-- Go to putty.org to download both PuTTy (a SSH and telnet client) and PuTTYGen (creates SSH keys)
-- 
+- Go to [putty.org](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to download both PuTTy (a SSH and telnet client) and PuTTYGen (creates SSH keys)
+- We chose the 64-bit x86 option because our machines met those requirement
 
 ## SSH Keys
 -
