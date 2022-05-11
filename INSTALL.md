@@ -26,15 +26,20 @@
 - We chose the 64-bit x86 option because our machines met those requirement
 
 ## SSH Keys
-- An easy way to create public and private SSH keys is with PuTTYgen
-- First things first, make sure that the type of key to be generated is on "RSA" and that the number of bits is "4096"
-- Press "Generate" and the key will do so
-- Copy the public key in the display box and save it in Notepad to use later
-- To make the key secure, add a passphrase(password) and once you're done, save it as a private key and give it a name
+- An easy way to create a public and private SSH key is with PuTTYgen
+	- First things first, make sure that the type of key to be generated is on "RSA" and that the number of bits is "4096"
+	- Press "Generate" and the key will do so
+	- Copy the public key in the display box and save it in Notepad to use later
+	- To make the key secure, add a passphrase(password) and once you're done, save it as a private key and give it a name
 - You can now close the key generator
 
 ## Accessing Remote Server
--
+- To access the remote server, you'll need to open PuTTY
+	- Paste the server's IP address where it says "Host Name (or IP address)"
+	- Make sure the port is on 22 and that the connection type is on "SSH with Telnet selected"
+	- Press Open and follow what the popup says
+	- Enter the username (the one provided by ionos) when asked, then press enter
+	- Enter the default password (the one provided by ionos) when asked (it's normal for the screen to remain the same even though you're typing), press enter when you're done
 
 ## Update & Upgrade
 -
