@@ -4,7 +4,7 @@
 - [Putty installation](#putty-installation)
 - [SSH Keys](#ssh-keys)
 - [Accessing Remote Server](#accessing-remote-server)
-- [Update/Upgrade](#update-upgrade)
+- [Update & Upgrade](#update--upgrade)
 - [Creating users](#creating-users)
 - [Changing root password](#changing-root-password)
 - [Adding keys to dedicated location](#adding-keys-to-dedicated-location)
