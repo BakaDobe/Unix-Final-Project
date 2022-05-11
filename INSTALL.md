@@ -22,11 +22,16 @@
 - Here you will find the server's IP address, the default username and password(you can change this once in the server), the server's status and which port they can connect to
 
 ## Putty installation
-- Go to [putty.org](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to download both PuTTy (a SSH and telnet client) and PuTTYGen (creates SSH keys)
+- Go to [putty.org](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to download both PuTTy (a SSH and telnet client) and PuTTYgen (creates SSH keys)
 - We chose the 64-bit x86 option because our machines met those requirement
 
 ## SSH Keys
--
+- An easy way to create public and private SSH keys is with PuTTYgen
+- First things first, make sure that the type of key to be generated is on "RSA" and that the number of bits is "4096"
+- Press "Generate" and the key will do so
+- Copy the public key in the display box and save it in Notepad to use later
+- To make the key secure, add a passphrase(password) and once you're done, save it as a private key and give it a name
+- You can now close the key generator
 
 ## Accessing Remote Server
 -
