@@ -24,7 +24,7 @@
 ## Accessing Remote Server
 -
 
-## Update/Upgrade
+## Update & Upgrade
 -
 
 ## Creating users
