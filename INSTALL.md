@@ -12,3 +12,35 @@
 - [WinSCP installation](#winscp-installation)
 - [Authentication of remote web server](#authentication-of-remote-web-server)
 
+## VPS installation
+-
+
+## Putty installation
+-
+
+## SSH Keys
+-
+
+## Accessing Remote Server
+-
+
+## Update/Upgrade
+-
+
+## Creating users
+-
+
+## Changing root password
+-
+
+## Adding keys to dedicated location
+-
+
+## Nginx and Nmap installation
+-
+
+## WinSCP installation
+-
+
+## Authentication of remote web server
+-
