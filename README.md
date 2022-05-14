@@ -21,5 +21,7 @@ functions well, to us this project is about applying what we learned so far in t
 same time still discovering and learning through this project, so this goal is a decent good one 
 we gave ourselves.
 
+P.S. Our project didn't involve any git attributes or bash codes
+
 IP: 74.208.150.121
 Password: steveataky
