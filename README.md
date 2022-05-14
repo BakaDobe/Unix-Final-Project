@@ -13,6 +13,8 @@ Part I: Final project proposal
 
 6. Team composition: Anthony Mastronardi, Dé Andre Powell McKain, and Ibrahim Awad
 
+What problem does this project solve?: You can interact with the host that provides the web server so it reinforces interactions, files can easily be configured in web servers as shown in the demonstration of the presentation
+
 Clarifications:
 Our goal needs to be clearer: To put it simply, we want to make a decent web server that 
 functions well, to us this project is about applying what we learned so far in the labs and at the 
