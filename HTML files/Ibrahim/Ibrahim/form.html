@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+
+<div id="formcontainer">
+
+    <div class="start">
+        Fill in information about the new student
+    </div>
+
+    <div class="f"></div>
+
+    <form>
+        <fieldset class="studentinfo">
+            <h2> <i class="fa-solid fa-circle-info"></i> Student's info</h2>
+        <label for="sid">Student ID</label><br/>
+        <input type="text" id="sid" name="sid"
+        placeholder="Enter your student ID (only digit)"><br/>
+
+        <label for="fn">First Name</label><br/>
+        <input type="text" id="fn" name="fn"
+        placeholder="Firstname"><br/>
+
+        <label for="ln">Last Name</label><br/>
+        <input type="text" id="ln" name="ln"
+        placeholder="Lastname"><br/>
+
+        <div class="updc">
+
+            <div class="userpassl">
+                <label id="unl">Username</label>
+                <label for="pwl">Password</label>
+            </div>
+            
+            <div class="userpassi">
+                <input type="text" id="uni" name="un"
+                placeholder="Username">
+
+                <input type="password" id="pwi" name="pw"
+                placeholder="Password">
+            </div>
+
+            <div class="birthcourses">
+
+                <div class="birth">
+                    <label id="dobl">Date of birth</label><br/>
+                    <input type="date" id="dobi" name="dob"
+                    placeholder="yyyy-mm-dd"><br/>
+                </div>
+            
+                <div class="cour">
+                    <label id="crsl">Courses</label><br/>
+                    <select name="crsi" id="crsi">
+                        <option value="null">--</option>
+                        <option value="Intenet Programming">Internet Programming</option>
+                        <option value="Unix">Unix</option>
+                        <option value="Programming Patterns">Programming Patterns</option>
+                        <option value="Database">Database</option>
+                        <option value="English">English</option>
+                        <option value="French">French</option>
+                        <option value="Humanities">Humanities</option>
+                        <option value="Gym">Gym</option>
+                        <option value="Complementry">Complementry</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </div>
+
+        <br/>
+
+        <b>Select campus:</b><br/>
+        <div class="sc">
+
+            <input type="radio" id="campus1" name="campus" value="Laval">
+            <label for="campus1">Laval</label>
+
+            <input type="radio" id="campus2" name="campus" value="Montreal">
+            <label for="campus2">Montreal</label>
+
+            <input type="radio" id="campus3" name="campus" value="Longueuil">
+            <label for="campus3">Longueuil</label><br/>
+
+        </div>
+        <br/>
+
+        <b>Select schedule preference:</b><br/>
+        <div class="ssp">
+
+            <input type="checkbox" id="class1" name="class" value="Morning classes">
+            <label class="class1">Morning classes</label>
+
+            <input type="checkbox" id="class2" name="class" value="Evening classes">
+            <label class="class2">Evening classes</label>
+
+            <input type="checkbox" id="class3" name="class" value="Back-to-back classes">
+            <label class="class3">Back-to-back classes</label>
+
+            <input type="checkbox" id="class4" name="class" value="No preference">
+            <label class="class4">No preference</label>
+
+        </div>
+        <br/>
+        </fieldset>
+
+        <fieldset class="contact">
+            <h2> <i class="fa-solid fa-phone"></i> Contact</h2>
+            <hr color="grey">
+
+            <div class="epfc">
+
+                <div class="contl">
+                    <label class="emaill">Email</label>
+                    <label class="phonel">Phone #</label>
+                    <label class="colorl">Favorite color</label>
+                </div>
+
+                <div class="conti">
+                    <input type="email" id="emaili" name="email"
+                    placeholder="john@example.com">
+                    <input type="phone" id="phonei" name="phone"
+                    placeholder="(514) 999-9999">
+                    <input type="color" id="colori" name="color">
+                </div>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset class="address">
+            <h2> <i class="fa-solid fa-address-card"></i> Address</h2>
+            <hr color="grey">
+            <div class="str">
+                <label class="streetl">Street</label><br/>
+                <input type="street" name="street" id="streeti"
+                placeholder="Street name">
+            </div>
+
+            <div class="cit">
+                <label for="city">City</label><br/>
+                <input type="city" name="city" id="cityi"
+                placeholder="City">
+            </div>
+
+            <div class="pospr">
+                <div class="pro">
+                    <label for="province">Province</label><br/>
+                    <input type="province" name="province" id="province"
+                    placeholder="Province">
+                </div>
+
+                <div class="posc">
+                    <label for="postalcode">Postal Code</label><br/>
+                    <input type="postalcode" name="postalcode" id="postalcode"
+                    placeholder="A1A 1A1">
+                </div>
+            </div>
+
+            <label for="comments">Comments</label><br/>
+            <textarea name="comment" id="comment" cols="15" rows="30" placeholder="Any comments?"></textarea>
+
+        </fieldset>
+
+        <input type="reset" class="button1">
+        <input type="submit" class="button2">
+
+    </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/66a072dca2.js" crossorigin="anonymous"></script>
+
+    <footer>
+        Ibrahim Awad&nbsp;&#169; <br>
+        2022/02/03
+    </footer>
+
+</div>
+</body>
+</html>

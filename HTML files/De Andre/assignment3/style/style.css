@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+html{
+    background-color: peachpuff;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: rgb(250, 222, 198);
+}
+
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em; 
+    line-height: 1.8em;  
+    text-decoration: none;
+    
+}
+
+a:link, 
+a:visited {
+   color: rgb(158, 94, 22);
+}
+
+
+a:active {
+   background-color: rgb(159, 194, 151);
+   text-decoration: none;
+} 
+
+
+nav{
+    display: flex;
+    background-color: rgb(217, 243, 200);
+    align-items: center;
+    justify-content: center;
+} 
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul > li{
+    display: flex;
+    padding: 2px;
+    margin: 8px;
+    background-color: rgb(249, 223, 255);
+    text-decoration: none;
+    border-radius: 8%;
+    
+}
+
+nav li:hover{
+    background-color: rgb(255, 253, 124);
+}
+
+figure{
+  float: none;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin rgb(55, 221, 221) solid;
+  border-radius: 10px;
+  margin: 1.8em;
+  padding: 0.5em;
+  background-color: burlywood;
+}
+
+img{
+    width: 550;
+    height: 550;
+    border-radius: 5px;
+}
+
+figcaption{
+    background-color: wheat;
+    color: black;
+    font-style: italic;
+}
+
+#main{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: block;
+    background-color: rgb(236, 231, 152);
+}
+
+ol{
+    border: solid 1px rgb(42, 168, 126);
+    color: rgb(105, 155, 138);
+    background-color: rgb(220, 247, 248);
+}
+
+ol > li{
+    border: dashed 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: upper-roman;
+}
+
+ol > li:hover{
+    background-color: rgb(207, 165, 201);
+}
+
+.ulDiv ul{
+    border: dotted 1px rgb(79, 240, 74);
+    color: rgb(79, 240, 74);
+    background-color: rgb(140, 213, 231);
+}
+
+.ulDiv ul > li{
+    border: double 1px;
+    font-size: large;
+    padding: 20px;
+    line-height: 3px;
+    border-radius: 0%;
+    text-decoration: none;
+    display: flex;
+}
+
+.ulDiv ul > li:hover{
+    background-image: url(https://wallpaperaccess.com/full/90278.jpg);
+    background-repeat: no-repeat;
+}

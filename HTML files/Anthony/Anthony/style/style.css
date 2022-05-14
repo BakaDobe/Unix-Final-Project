@@ -1,0 +1,345 @@
+@charset "utf-8";
+
+a{
+    color: rgb(91, 146, 228);
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 1.4em;
+  }
+  a:link,
+  a:visited{
+      color: rgb(233, 102, 200);
+  }
+  a:active{
+      background-color: rgb(219, 142, 98);
+      text-decoration: none;
+  }
+
+
+  body {
+    background-color: rgb(234, 226, 243);
+    font-family:'Times New Roman', Times, serif	;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ body > header > nav#topLinks {
+	background-color: rgb(214, 230, 127);
+	color: white;
+	line-height: 2;
+	text-align: right;
+	text-indent: 0fr;
+}
+h1 {
+    color: rgb(1, 5, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-style: normal;
+}
+nav{
+    background-color: rgb(220, 231, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black; 
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    line-height: 2;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+ul > li{
+    display: flex;
+    padding: 2px;
+    margin: 10px;
+    background-color: beige;
+    border-radius: 8%;
+}
+
+li:hover{
+    background-color: rgb(122, 201, 238);
+}
+
+#olList{
+    border-style: solid;
+    /*  Add a dashed border to the items of the list.*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type:upper-roman;
+}
+
+
+#ulList{
+    border-style: dotted;
+    font-size: medium;
+    padding: 20px;
+    line-height: normal;
+
+}
+#olList:hover{
+    background-color: blueviolet;
+
+}
+#ulList:hover{
+    background: url("images/covid strain hero compressed.png") no-repeat;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: 0;
+    
+}
+th{
+    text-align: left;
+    background-color: rgb(224, 133, 189);
+    font-size: large;
+}
+table, th, td{
+    border: 1px solid #000;
+
+}
+tr:hover{
+    background-color: rgb(130, 211, 211);
+}
+tr:nth-child(even){
+   background-color: rgb(246, 244, 248);
+}
+tr:nth-child(odd){
+    background-color: rgb(211, 204, 209);
+}
+
+/* Everything below is related with the class Topic */
+
+#h1Topic{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+#p1{
+    font-size: large;
+}
+#p1::first-letter{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+#h1Topic2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#p2{
+    font-size: large;
+}
+#p2::first-letter{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+#h1Topic3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+#p3{
+    font-size: large;
+}
+#p3::first-letter{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+/*Everything below is to style the Form class */
+
+.Info{
+    margin: 50px auto 0 auto;
+    padding: 15px 0 15px 20px;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(220, 231, 120);
+    color: rgb(8, 8, 8);
+}
+
+.Form{
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto 50px auto;
+}
+
+fieldset{
+    padding: 0;
+    border: none;
+}
+
+input{
+    padding: 5px;
+    margin: 5px 0;
+}
+
+label{
+    font-size: 14px;
+}
+
+.StudentId{
+    width: 100%;
+}
+.firstNameInput{
+    width: 100%;
+}
+.lastNameInput{
+    width: 100%;
+}
+
+.usernamePassLabel{
+    display: flex;
+    justify-content: space-between;    
+}
+.usernamePassInputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.usernameLabel{
+    width: 48%;
+}
+.passLabel{
+    width: 48%;
+}
+
+.userNameInput{
+    width: 48%;
+}
+.passInput{
+    width: 48%;
+}
+
+.dob{
+    display: flex;
+    width: 100%;
+}
+.dobInput{
+    width: 48%;
+    margin-right: 4%;
+}
+
+
+.dobCourseDiv select{
+    width: 15%;
+    padding: 5px;
+}
+
+
+.campusLabel{
+    display: flex;
+    font-weight: bold;
+}
+
+.campusDiv label{
+    margin-right: 15%;
+}
+
+.schedulePrefLabel{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+}
+.schedulePrefDiv label{
+    margin-right: 5%;
+}
+
+
+.fieldset2{
+    margin-top: 20px;
+}
+
+
+.emailLabel{width: 30%;}
+.phoneLabel{width: 30%;}
+.favColourLabel{width: 30%;}
+.contactInfoLabel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailInput{width: 30%;}
+.phoneInput{width: 30%;}
+.favColourInput{width: 30%; height: 20px;}
+
+.contactInfoInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.streetLabel{
+    display: flex;
+    width: 100%;
+}
+.streetInput{
+    width: 100%;
+}
+
+.cityLabel{
+    display: flex;
+    width: 100%;
+}
+.cityInput{
+    width: 100%;
+}
+
+.locationLabel{
+    display: flex;
+    justify-content: space-between;
+}
+.provinceLabel{
+    width: 48%;
+}
+.postalCodeLabel{
+    width: 48%;
+}
+
+.locationInput{
+    display: flex;
+    justify-content: space-between;
+}
+.provinceInput{
+    width: 48%;
+}
+.postalCodeInput{
+    width: 48%;
+}
+
+.commentLabel{
+    display: flex;
+    width: 100%;
+}
+.commentInput{
+    width: 100%;
+    height: 100px;
+}
+
+.resetButton{
+    background-color: rgb(98, 166, 238);
+    border: none;
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.submitButton{
+    background-color: rgb(150, 29, 41);
+    border: none;
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+

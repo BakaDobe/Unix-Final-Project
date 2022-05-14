@@ -1,0 +1,445 @@
+/*Links default color*/
+a:link {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Visited link*/
+a:visited {
+    color: red;
+}
+
+/*If your mouse is on the link*/
+a:hover {
+    color: aquamarine;
+    background-color: darkred;
+}
+
+/*If you select a link*/
+a:active {
+    color: lightblue;
+    background-color: darkblue;
+}
+
+a {
+    background-color: gold;
+    border: 2px solid darkblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*Website background*/
+body {
+    background-color: darkgrey;
+    color: darkblue;
+    resize: both;
+}
+
+/*Header rotation*/
+h1 {
+    transform: rotate(7deg);
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav > ul > li {
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 700px;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    background-color: azure;
+    font-size: larger;
+    text-shadow: 1px 1px;
+    border-radius: 80px 80px;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: greenyellow;
+    border-color: black;
+    width: 150px;
+    justify-content: center;
+    margin: auto;
+}
+
+.imgpackage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-flow: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+figure {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+figcaption {
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    width: 260px;
+    height: 260px;    
+}
+
+/*Adding things for assignment3*/
+.orl ol {
+    border: solid 2px black;
+    color: darkred;
+    background-color: gainsboro;
+}
+
+.orl ol > li {
+    border: dashed 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: upper-roman;
+    text-align: left;
+}
+
+.orl ol > li:hover {
+    background-color: red;
+}
+
+.unl ul {
+    border: dotted 2px black;
+    color:darkgoldenrod;
+    background-color: gainsboro;
+}
+
+.unl ul > li {
+    border: double 4px;
+    font-size: large;
+    padding: 20px;
+    line-height: 2px;
+    text-align: left;
+}
+
+.unl ul > li:hover {
+    background-image: url(https://w0.peakpx.com/wallpaper/20/977/HD-wallpaper-disturbed-dark-design-face-scary-spooky.jpg);
+    background-repeat: no-repeat;
+    background-size: 1860px 100px;
+    background-position: center;
+}
+
+table {
+    border: solid 4px;
+    border-collapse: collapse;
+    margin-left: 750px;
+    margin-top: 100px;
+}
+
+td {
+    border: solid 2px;
+}
+
+th {
+    border: solid 2px;
+}
+
+tfoot {
+    background-color: white;
+    text-align: left;
+    line-height: 20px;
+    font-size: large;
+    color: royalblue;
+    border: dashed black;
+    text-decoration: underline;
+}
+
+thead {
+    background: antiquewhite;
+    font: italic;
+}
+
+tbody > tr > td:hover {
+    background-color: azure;
+}
+
+tbody:nth-child(2) {
+    background-color: white black;
+}
+
+.top h1{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center italic;
+    text-shadow: 2px;
+}
+
+.top h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center italic;
+    text-shadow: 2px;
+}
+
+.top h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center italic;
+    text-shadow: 2px;
+}
+
+.p1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 18px;
+}
+
+.p2 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 18px;
+}
+
+.p3 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 18px;
+}
+
+.p1::first-line{
+    text-transform: uppercase;
+}
+
+.p2::first-letter{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.p3::first-letter{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+/*#top::selection{
+    background-color: yellow;
+    color: aquamarine;
+}*/
+
+#top header::selection{
+    background-color: yellow;
+}
+
+#top p::selection{
+    background-color: yellow;
+}
+
+#top h1::selection{
+    background-color: yellow;
+}
+
+#top h2::selection{
+    background-color: yellow;
+}
+
+#top section::selection{
+    background-color: yellow;
+}
+
+/*For Forms*/
+#formcontainer{
+    align-content: left;
+}
+
+.start{
+    padding: 15px 0 15px 20px;
+    display: flex;
+    width: 1865px;
+    background-color: blue;
+    color: azure;
+    font-size: 13px;
+}
+
+.f{
+    justify-content: left;
+    width: 50%;
+    margin: auto 50px auto;
+}
+
+fieldset{
+    padding: 0;
+    border: none;
+}
+
+input{
+    padding: 5px;
+    margin: 5px 0;
+}
+
+label{
+    font-size: 15px;
+}
+
+#sid{
+    width: 975px;
+}
+
+#fn{
+    width: 975px;
+}
+
+#ln{
+    width: 975px;
+}
+
+.userpassl{
+    display: flex;
+    
+}
+
+.userpassi{
+    display: flex;
+}
+
+#unl{
+    width: 23%;
+    margin-right: 6%;
+}
+
+#pwl{
+    width: 5%;
+}
+
+#uni{
+    width: 23%;
+    margin-right: 5%;
+}
+
+#pwi{
+    width: 23%;
+}
+
+#dobi{
+    width: 80%;
+}
+
+#crsl{
+    width: 140px;
+    margin-left: 15%;
+    margin-top: 11%;
+}
+
+#crsi{
+    width: 170px;
+    height: 20px;
+    margin-right: 18%;
+    margin-top: 11%;
+}
+
+.birthcourses select{
+    width: 100%;
+}
+
+.birthcourses{
+    display: flex;
+}
+
+.cour{
+    display: flex;
+    margin-left: 17%;
+}
+
+.sc label{
+    margin-right: 5%;
+}
+
+.ssp{
+    margin-right: 5%;
+}
+
+.class1{
+    margin-right: 5%;
+}
+
+.class2{
+    margin-right: 5%;
+}
+
+.class3{
+    margin-right: 5%;
+}
+
+.class4{
+    margin-right: 5%;
+}
+
+.emaill{
+    width: 20%;
+    margin-right: 21%;
+}
+
+.phonel{
+    width: 20%;
+    margin-right: 20%;
+}
+
+.colorl{
+    width: 20%;
+}
+
+#emaili{
+    width: 20%;
+    margin-right: 2%;
+}
+
+#phonei{
+    width: 20%;
+    margin-right: 2%;
+}
+
+#colori{
+    width: 6%;
+    margin-right: 2%;
+}
+
+#streeti{
+    width: 975px;
+}
+
+#cityi{
+    width: 975px;
+}
+
+.pospr{
+    display: flex;
+}
+
+.pro{
+    margin-right: 5%;
+}
+
+#comment{
+    width: 980px;
+    height: 70px;
+}
+
+.button1{
+    background-color: red;
+    padding: 7px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.button2{
+    background-color: lightblue;
+    padding: 7px;
+    font-size: 12px;
+    border-radius: 2px;
+}
