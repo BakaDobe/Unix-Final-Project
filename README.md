@@ -18,3 +18,6 @@ Our goal needs to be clearer: To put it simply, we want to make a decent web ser
 functions well, to us this project is about applying what we learned so far in the labs and at the 
 same time still discovering and learning through this project, so this goal is a decent good one 
 we gave ourselves.
+
+IP: 74.208.150.121
+Password: steveataky
